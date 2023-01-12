@@ -51,7 +51,7 @@ describe('eMag.ro',()=>{
 		await serchBox.setValue('tricou polo');
 		await serchButton.click();
 
-	})
+	});
 });
 ```
 
