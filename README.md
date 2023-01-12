@@ -1,5 +1,4 @@
 # Automation
-
 Below are some automation tests samples on eMag.ro website that I wrote while working on previous projects.
 
 -------
