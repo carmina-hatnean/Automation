@@ -41,3 +41,18 @@ describe('eMag.ro',()=>{
 ```
 
 ----------
+
+**Should have a working search**
+```
+describe('eMag.ro',()=>{
+	it('should have a working search',async () =>{
+		const serchBox = await $('#searchboxTrigger');
+		const serchButton = await $(.searchbox-submit-button);
+		await serchBox.setValue('tricou polo');
+		await serchButton.click();
+
+	})
+});
+```
+
+-----------
