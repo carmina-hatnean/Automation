@@ -50,7 +50,7 @@ describe('eMag.ro',()=>{
 		const serchButton = await $(.searchbox-submit-button);
 		await serchBox.setValue('tricou polo');
 		await serchButton.click();
-
+		await expect(browser).toHaveTitle('Cauți Tricou polo? Alege din oferta eMAG.ro');
 	});
 });
 ```
