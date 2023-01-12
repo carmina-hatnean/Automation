@@ -5,13 +5,13 @@ Below are some automation tests samples on eMag.ro website that I wrote while wo
 
 
 **Should have the correct page title**
-
+```
 describe('eMag.ro',()=>{
 	it('should have the correct page title', async()=>{
 			await browser.url('https://www.emag.ro');
 			await expect(browser).toHaveTitle('eMAG.ro - Căutarea nu se oprește niciodată');
 	});
 });
-
+```
 
 -----------
