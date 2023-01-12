@@ -42,7 +42,7 @@ describe('eMag.ro',()=>{
 
 ----------
 
-**Should have a working search**
+**4. Should have a working search**
 ```
 describe('eMag.ro',()=>{
 	it('should have a working search',async () =>{
