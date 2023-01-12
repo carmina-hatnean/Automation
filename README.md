@@ -15,3 +15,15 @@ describe('eMag.ro',()=>{
 ```
 
 -----------
+
+**Should contain a cart button**
+```
+describe('eMag.ro',()=>{
+	it('should contain a cart button', async()=>{
+			const cartButton = await $('#my_cart');
+			await expect(cartButton).toBeDisplayed();
+	});
+});
+```
+
+------------
