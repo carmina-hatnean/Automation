@@ -4,7 +4,7 @@ Below are some automation tests samples on eMag.ro website that I wrote while wo
 -------
 
 
-**Should have the correct page title**
+**1. Should have the correct page title**
 ```
 describe('eMag.ro',()=>{
 	it('should have the correct page title', async()=>{
@@ -16,7 +16,7 @@ describe('eMag.ro',()=>{
 
 -----------
 
-**Should contain a cart button**
+**2. Should contain a cart button**
 ```
 describe('eMag.ro',()=>{
 	it('should contain a cart button', async()=>{
@@ -27,3 +27,17 @@ describe('eMag.ro',()=>{
 ```
 
 ------------
+
+**3. Should open eMag Genius page**
+```
+describe('eMag.ro',()=>{
+	it('should open eMag Genius page', async()=>{
+		const geniusButton = await $('[title="eMag Genius]');
+		await geniusButton.click();
+		await expect(browser).toHaveTitle('Genius: livrare gratuită și oferte exclusive pe eMAG, Tazz, Fashion Days și Freshful - eMAG.ro');
+
+	});
+});
+```
+
+----------
