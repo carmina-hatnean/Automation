@@ -4,7 +4,7 @@ Below are some automation tests samples on eMag.ro website that I wrote while wo
 -------
 
 
-**1. Should have the correct page title**
+**Test 1. Should have the correct page title**
 ```
 describe('eMag.ro',()=>{
 	it('should have the correct page title', async()=>{
@@ -16,7 +16,7 @@ describe('eMag.ro',()=>{
 
 -----------
 
-**2. Should contain a cart button**
+**Test 2. Should contain a cart button**
 ```
 describe('eMag.ro',()=>{
 	it('should contain a cart button', async()=>{
@@ -28,7 +28,7 @@ describe('eMag.ro',()=>{
 
 ------------
 
-**3. Should open eMag Genius page**
+**Test 3. Should open eMag Genius page**
 ```
 describe('eMag.ro',()=>{
 	it('should open eMag Genius page', async()=>{
@@ -42,7 +42,7 @@ describe('eMag.ro',()=>{
 
 ----------
 
-**4. Should have a working search**
+**Test 4. Should have a working search**
 ```
 describe('eMag.ro',()=>{
 	it('should have a working search',async () =>{
